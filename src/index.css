@@ -340,3 +340,142 @@ img {
         
     }    
 }
+
+.skill__card {
+    background-color: var(--blanco);
+}
+
+/* Follow */
+
+.follow {
+    background-color: var(--blanco);
+    padding: 3rem;
+}
+
+@media screen and (min-width: 600px){
+    .follow {        
+        padding: 6rem 3rem;
+    }    
+}
+
+
+.follow__grid {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px){
+    .follow__grid {        
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+    }    
+}
+
+.follow__heading {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media screen and (min-width: 600px){
+    .follow__heading {        
+        font-size: 5rem;
+        line-height: 5rem;
+    }    
+}
+
+.follow__para {
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 3rem 0;
+}
+
+@media screen and (min-width: 600px){
+    .follow__para {        
+        font-size: 2rem;
+    }    
+}
+
+/* Footer */
+
+.footer {
+    background-color: #000;
+    min-height: 30rem;
+    padding: 5rem 0;
+}
+
+@media screen and (min-width: 600px){
+    .footer {        
+        min-height: 40rem;
+        padding: 18rem 0;
+    }    
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+@media screen and (min-width: 600px){
+    .footer__grid {        
+        grid-template-columns: 2fr 1fr;        
+    }    
+}
+
+
+.footer__heading {
+    font-size: 5rem;
+    font-weight: 500;
+    color: var(--blanco);
+    margin: 0;
+}
+
+@media screen and (min-width: 900px){
+    .footer__heading {        
+        font-size: 8rem;
+        line-height: 8rem;
+    }    
+}
+
+.footer__para {
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: var(--blanco);
+}
+
+@media screen and (min-width: 900px){
+    .footer__para {        
+        font-size: 2rem;
+    }    
+}
+
+.footer__subtitle {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: var(--blanco);
+}
+
+@media screen and (min-width: 900px){
+    .footer__subtitle {        
+        font-size: 4rem;
+        font-weight: 500;
+    }    
+}
+
+.footer__image {
+    display: flex;
+    align-items: center;
+}
+
+.footer__card {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--blanco);
+}
+
+.footer__title {
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--blanco);
+}

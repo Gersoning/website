@@ -56,6 +56,51 @@ export default function Main() {
                     </div>
                 </div>
             </div>
+
+            <div className="follow">
+                <div className="follow__grid">
+                    <div className="follow__content">
+                        <h4 className="follow__heading">Hazle seguimientos a la ejecución de tus proyectos</h4>
+                        <p className="follow__para">Con tablas dinámicas, intuitivas y con estilo, puedo crear lo que necesites con las herramientas mas recientes y poderosas. </p>
+
+                    </div>
+                    <div className="follow__image">
+                        <figure>
+                            <img src="/src/assets/img/seguimiento.png" alt="Seguimiento" />
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="footer">
+                <div className="footer__grid contenedor">
+                    <div className="footer__content">
+                        <h2 className="footer__heading">TRABAJEMOS JUNTOS !</h2>
+                        <p className="footer__para">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero deserunt, reiciendis vel perferendis iure ipsa quaerat numquam. Ipsa earum, nesciunt culpa quisquam recusandae doloribus numquam officia libero qui molestiae quas.
+                        </p>
+                        <div className="footer__social">
+                            <div className="footer__card">
+                                <h3 className="footer__title">Email</h3>
+                                <span>@</span>
+                                <a href="#">gerson@gmail.com</a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div className="footer__contact">
+                        <div className="footer__image">
+                            <figure className="footer__img">
+                                <img src="/src/assets/img/logo-black.png" alt="" />
+                            </figure>
+                            <h2 className="footer__subtitle">Gerson</h2>             
+                        </div>
+
+                    </div>
+
+                </div>
+                <p className="footer__copy">© 2024  Gerson Charris</p>
+            </div>
         
         </>
     )
